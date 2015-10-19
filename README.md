@@ -6,12 +6,20 @@ The code was specifically for the homeworks of the course and might not be usefu
 folder structure:
 
 Java
-  > src
-      > Lab0
-        > CesarCode
-        > Scytale
-      > Lab1
-        > OneTimePad
+
+->src
+
+-->Lab0
+
+--->CesarCode
+
+--->Scytale
+
+-->Lab1
+
+--->OneTimePad
+     
         
 Lua
-  > MonoalphabeticalCipher
+
+->MonoalphabeticalCipher
