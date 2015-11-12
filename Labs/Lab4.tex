@@ -1,0 +1,36 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath}
+\usepackage{todonotes}
+%Gummi|065|=)
+\title{\textbf{Lab 4}}
+\author{Lucie Kaffee\\
+		Charlie Kritschmar
+		}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{$x^{y}$}
+\begin{equation}
+x^{16} = (((x^ {2})^{2})^{2})
+\end{equation}
+
+Therefore 4 multiplications are necessary to calculate $x^{16}$.
+
+\begin{equation}
+x^{21} = x^ {20} \cdot x = x^{16} \cdot x^{4} \cdot x
+\end{equation}
+
+In this case, 6 multiplications are necessary since $x^{4}$ is calculated on the way to $x^{16}$. 
+
+\begin{equation}
+x^{341} = x^ {340} \cdot x = x^{256} \cdot x^{64} \cdot x^{16} \cdot x^{4} \cdot x
+\end{equation}
+
+To calculate $x^{256}$ eight multiplications necessary, for $x^{64}$ six, for $x^{16}$ four and for $x^{4}$ two. Sice we will calculate $x^{64}$, $x^{16}$ and $x^{4}$ on the way to $x^{256}$, nine multiplications are necessary in this case.
+
+
+\end{document}
