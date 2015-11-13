@@ -64,7 +64,22 @@ For the algorithm we used \href{https://de.wikipedia.org/wiki/Bin%C3%A4re_Expone
 
 We converted the $y$ to its binary representation and iterated over that. Depending on whether the next number (or in this case char) was a zero or a one, we either squared and multiplicated with $x$ or just squared the result.  
 
-To see how many calculations were needed in our program, we use a counter called numberCalculations.
+To see how many calculations were needed in our program, we use a counter called numberCalculation.
+
+\section{}
+\begin{equation}
+\begin{split}
+7^{x} \equiv 10 \mod 31 \\
+7^2 \equiv 18 \\
+7^3 \equiv 18 \cdot 7 \equiv 2 \\
+7^4 \equiv 2 \cdot 7 \equiv 14 \\
+7^5 \equiv 14 \cdot 7 \equiv 5 \\
+7^6 \equiv 5 \cdot 7 \equiv 4 \\
+7^7 \equiv 4 \cdot 7 \equiv 28 \\
+7^8 \equiv 28 \cdot 7 \equiv 196 \equiv 10 \mod 31 \\
+\end{split}
+\end{equation}
+
 
 \section{Code}
 \subsection{$x^{y}$}
